@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Icon.svg" type="image/svg+xml">
+    
+    <!----CUSTOM STYLES---->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----GOOGLE FONTS---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>ToDo</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <article class="app-box">
+                <header class="header">
+                    <h1 class="title">To Do App</h1>
+                    <div class="input-area">
+                        <input type="text" aria-label="Add task" maxlength="205" placeholder="Input your task"class="input-field">
+                        <button class="add">
+                            <ion-icon name="add-circle-outline"></ion-icon>
+                        </button>
+                    </div>
+                </header>
+                <div class="wrapper">
+                    <ul class="todo-list">
+                    </ul>
+                </div>
+            </article>
+        </main>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <!----ION ICON---->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
