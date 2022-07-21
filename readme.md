@@ -1,2 +1,2 @@
-#Simplefy app toDoList 
+#Simple app toDoList 
 
